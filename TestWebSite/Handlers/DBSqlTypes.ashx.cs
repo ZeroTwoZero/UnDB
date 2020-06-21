@@ -14,7 +14,7 @@ namespace TestWebSite.Handlers
 
         public void ProcessRequest(HttpContext context)
         {
-            List<string> types = DBHelper.GetTablesNameFromDB.GetDatabaseList();
+            List<string> types = GetSQLTypes.GetSQLType().ToList();
             context.Response.ContentType = "application/json";
             context.Response.Write(new JavaScriptSerializer().Serialize(types));
         }
