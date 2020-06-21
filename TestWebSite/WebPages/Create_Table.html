@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  	<title>Create Page</title>
+	<link rel="stylesheet" type="text/css" href="../Stylesheets/BasicpageStyle.css"> 
+	<link rel="stylesheet" type="text/css" href="../Stylesheets/CreateTableStyleSheet.css"> 
+	<script src="../Scripts/jquery.min.js"></script>
+	<script src="../Scripts/CreateTablePageJS.js"></script>	
+</head>
+<body style="height: 100%;">
+<div class="wrapper">
+	<div class="button">
+		<label for="tableName">Table Name</label>
+		<input type="text" id="tableName" name="tableName"><br><br>
+		<div id="columnsDiv"></div>
+		<div style="margin-top: 10px;">
+			<button id="addColumn">Add Column</button>
+			<button id="createTable">Create Table</button>
+			<button id="HomePage">Go To Home Page</button>
+		</div>
+		<div id="column">
+			<label style="color: red;">*You need to add atleast one column</label>
+		</div>
+		<div id="sqlerror">
+			<label style="color: red;">*Table Not Created. Please check your SQL credential in previous page. Also ensure Table name and Column Names are entered.</label>
+		</div>
+		<div id="sqlsuccess">
+			<label style="color: green;">*Table Successfully Created.</label>
+		</div>
+	</div>
+</div>
+</body>
+</html>

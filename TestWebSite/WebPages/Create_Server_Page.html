@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>Create Page</title>
+	<link rel="stylesheet" type="text/css" href="../Stylesheets/ToggleStyleSheet.css">
+	<link rel="stylesheet" type="text/css" href="../Stylesheets/BasicpageStyle.css">
+	<script src="../Scripts/jquery.min.js"></script>
+	<script src="../Scripts/CreateServerPageJS.js"></script>
+	<style>
+	</style>
+</head>
+<body style="height: 100%;">
+	<div class="wrapper">
+		<div class="button">
+			<label for="serverName">Server name:</label>
+			<input type="text" id="serverName" class="serverValue" name="serverName"><br><br>
+			<label for="dbName">DB name:</label>
+			<input type="text" id="dbName" class="serverValue" name="dbName"><br><br>
+			<div id="serverDet">
+				<label for="serverUName">Server Username:</label>
+				<input type="text" id="serverUName" class="serverValue" name="serverUName"><br><br>
+				<label for="serverPwd">Server Password:</label>
+				<input type="password" id="serverPwd" class="serverValue" name="serverPwd"><br><br>
+			</div>
+			<div>
+				<label for="winAuth">Windows Authentication</label>
+				<label id="winAuth" name="winAuth" class="switch">
+					<input id="enableWinAuth" type="checkbox" checked>
+					<span class="slider round"></span>
+				</label>
+			</div>
+			<div style="margin-top: 10px;margin-bottom: 10px">
+				<button id="checkServer">Test Server Connection</button>
+				<button class="button2" id="goToCreateTable">Go To Create Table</button>
+				<button class="button2" id="goToUpdateTable" formaction="Update_Table_Page.html">Update Table</button>
+				<button class="button2" id="goToDeleteTable" formaction="Delete_Table_Page.html">Delete Table</button>
+			</div>
+			<div id="testConn">
+				<label style="color: green;">*Test Succeded</label>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

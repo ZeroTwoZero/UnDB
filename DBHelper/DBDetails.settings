@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DBHelper" GeneratedClassName="DBDetails">
+  <Profiles />
+  <Settings>
+    <Setting Name="providerName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">System.Data.SqlClient</Value>
+    </Setting>
+    <Setting Name="connectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Initial Catalog=</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

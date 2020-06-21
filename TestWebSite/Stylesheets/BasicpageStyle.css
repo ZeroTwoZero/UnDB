@@ -1,0 +1,28 @@
+﻿.wrapper {
+    min-height: 100%;
+    min-width: 100%;
+    height: auto !important;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    text-align: center;
+}
+
+.button1 {
+    margin-left: 0px;
+}
+
+.button2 {
+    margin-left: 100px;
+}
+
+.button3 {
+    margin-left: 100px;
+}
